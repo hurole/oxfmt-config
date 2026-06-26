@@ -1,0 +1,26 @@
+{
+  "name": "@fka/oxfmt-config",
+  "version": "0.1.0",
+  "description": "Shared oxfmt configuration for JavaScript and TypeScript projects.",
+  "keywords": [
+    "config",
+    "oxfmt"
+  ],
+  "license": "MIT",
+  "author": "hurole",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "fmt": "oxfmt"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.56.0",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@10.28.2"
+}
