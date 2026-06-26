@@ -18,8 +18,10 @@
     "build": "tsc -p tsconfig.json",
     "fmt": "oxfmt"
   },
+  "peerDependencies": {
+    "oxfmt": "*"
+  },
   "devDependencies": {
-    "oxfmt": "^0.56.0",
     "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@10.28.2"

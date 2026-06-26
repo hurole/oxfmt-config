@@ -9,8 +9,9 @@ importers:
   .:
     dependencies:
       oxfmt:
-        specifier: ^0.56.0
+        specifier: '*'
         version: 0.56.0
+    devDependencies:
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
